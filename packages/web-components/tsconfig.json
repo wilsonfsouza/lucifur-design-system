@@ -1,0 +1,4 @@
+{
+  "extends": "@lucifur-design-system/ts-config/web-components.json",
+  "include": ["src"]
+}

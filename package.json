@@ -1,0 +1,36 @@
+{
+  "name": "web-components",
+  "version": "0.0.1",
+  "description": "This is a design system using web components",
+  "author": {
+    "name": "Wilson Franca de Souza",
+    "email": "wilson.franca.92@gmail.com",
+    "url": "https://www.linkedin.com/in/wilsonfsouza"
+  },
+  "keywords": [
+    "web-components",
+    "typescript",
+    "lit",
+    "storybook"
+  ],
+  "packageManager": "npm@10.2.3",
+  "engines": {
+    "node": ">=20"
+  },
+  "bugs": {
+    "url": "https://github.com/wilsonfsouza/lucifur-design-system/issues"
+  },
+  "homepage": "https://github.com/wilsonfsouza/lucifur-design-system#README",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "1.11.3"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@lucifur-design-system/docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Wilson Franca de Souza",
+    "email": "wilson.franca.92@gmail.com",
+    "url": "https://www.linkedin.com/in/wilsonfsouza"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@lucifur-design-system/eslint-config": "*",
+    "@lucifur-design-system/ts-config": "*",
+    "@lucifur-design-system/web-components": "*",
+    "@storybook/addon-essentials": "7.6.8",
+    "@storybook/addon-links": "7.6.8",
+    "@storybook/blocks": "7.6.8",
+    "@storybook/web-components": "7.6.8",
+    "@storybook/web-components-vite": "7.6.8",
+    "eslint-plugin-storybook": "0.6.15",
+    "lit": "3.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "7.6.8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@lucifur-design-system/ts-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Wilson Franca de Souza",
+    "email": "wilson.franca.92@gmail.com",
+    "url": "https://www.linkedin.com/in/wilsonfsouza"
+  },
+  "private": true
+}
